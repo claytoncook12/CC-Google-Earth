@@ -53,8 +53,8 @@
 		</Pair>
 	</StyleMap>
 	<Placemark>
-		<name>IMG_20170426_144406.jpg</name>
-		<description><![CDATA[Image was taken on 2017/04/26<p><img src="U:/Documents/Google Earth Pro Files/IMG_20170426_144406.jpg" width= "500" height="525"/></p>]]></description>
+		<name>Trial Image</name>
+		<description><![CDATA[Image was taken on 2017/04/26<p><img src="https://imgbox.com/Zimax6Sn" width= "1500" height="525"/></p>]]></description>
 		<styleUrl>#10528045</styleUrl>
 		<Point>
 			<coordinates>-85.30020209824698,37.58983623014355,0</coordinates>
