@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>2017-04-26 Site Visit.kml</name>
+	<open>1</open>
+	<Style id="pano_cluster3n4">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>http://kh.google.com:80/flatfile?lf-0-icons/panoramio_cluster_n2.png</href>
+				<gx:w>32</gx:w>
+				<gx:h>32</gx:h>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>0</width>
+			<gx:labelVisibility>1</gx:labelVisibility>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="pano_cluster3h4">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://kh.google.com:80/flatfile?lf-0-icons/panoramio_cluster_n2.png</href>
+				<gx:w>32</gx:w>
+				<gx:h>32</gx:h>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>0</width>
+			<gx:labelVisibility>1</gx:labelVisibility>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="10528045">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#pano_cluster3n4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#pano_cluster3h4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>IMG_20170426_144406.jpg</name>
+		<description><![CDATA[Image was taken on 2017/04/26<p><img src="U:/Documents/Google Earth Pro Files/IMG_20170426_144406.jpg" width= "500" height="525"/></p>]]></description>
+		<styleUrl>#10528045</styleUrl>
+		<Point>
+			<coordinates>-85.30020209824698,37.58983623014355,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>PANO_20170426_145011.jpg</name>
+		<description><![CDATA[Image was taken on 2017/04/26<p><img src="U:/Documents/Google Earth Pro Files/PANO_20170426_145011.jpg" width= "1500" height="525"/></p>]]></description>
+		<styleUrl>#10528045</styleUrl>
+		<Point>
+			<coordinates>-85.30029309357759,37.58957634500315,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>PANO_20170426_144652.jpg</name>
+		<description><![CDATA[Image was taken on 2017/04/26<p><img src="U:/Documents/Google Earth Pro Files/PANO_20170426_144652.jpg" width= "1500" height="525"/></p>]]></description>
+		<styleUrl>#10528045</styleUrl>
+		<Point>
+			<coordinates>-85.3003315359542,37.58964070068964,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>IMG_20170426_144422.jpg</name>
+		<description><![CDATA[Image was taken on 2017/04/26<p><img src="U:/Documents/Google Earth Pro Files/IMG_20170426_144422.jpg" width= "500" height="525"/></p>]]></description>
+		<styleUrl>#10528045</styleUrl>
+		<Point>
+			<coordinates>-85.30026636938263,37.58981902948788,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>IMG_20170426_145256.jpg</name>
+		<description><![CDATA[Image was taken on 2017/04/26<p><img src="U:/Documents/Google Earth Pro Files/IMG_20170426_145256.jpg" width= "500" height="525"/></p>]]></description>
+		<styleUrl>#10528045</styleUrl>
+		<Point>
+			<coordinates>-85.30014039865984,37.58980009142064,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>IMG_20170426_144904.jpg</name>
+		<description><![CDATA[Image was taken on 2017/04/26<p><img src="U:/Documents/Google Earth Pro Files/IMG_20170426_144904.jpg" width= "500" height="525"/></p>]]></description>
+		<styleUrl>#10528045</styleUrl>
+		<Point>
+			<coordinates>-85.30027981850276,37.58960717151662,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>IMG_20170426_145301.jpg</name>
+		<description><![CDATA[Image was taken on 2017/04/26<p><img src="U:/Documents/Google Earth Pro Files/IMG_20170426_145301.jpg" width= "500" height="525"/></p>]]></description>
+		<styleUrl>#10528045</styleUrl>
+		<Point>
+			<coordinates>-85.30024997816418,37.58983510177263,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>IMG_20170426_144715.jpg</name>
+		<description><![CDATA[Image was taken on 2017/04/26<p><img src="U:/Documents/Google Earth Pro Files/IMG_20170426_144715.jpg" width= "500" height="525"/></p>]]></description>
+		<styleUrl>#10528045</styleUrl>
+		<Point>
+			<coordinates>-85.3003145561015,37.58966847779682,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
