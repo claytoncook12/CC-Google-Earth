@@ -1,5 +1,4 @@
 .container {
-  border-style:solid;
 }
 
 img {
@@ -13,6 +12,7 @@ img {
 
 .caption {
    text-align: center;
+   font-size: 120%;
    margin-top: 10px;
    margin-bottom: 10px;
 }
