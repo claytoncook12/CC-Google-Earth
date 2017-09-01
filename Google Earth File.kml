@@ -2,7 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>2017-08-15 Site Visit.kml</name>
-	<open>1</open>
 	<Style id="h_photo">
 		<IconStyle>
 			<scale>0.6</scale>
@@ -172,7 +171,7 @@ Image was of NorthEast Cut Slope through fault.
 </div>
 </body>
 </html>]]></description>
-		<styleUrl>#photo0</styleUrl>
+		<styleUrl>#photo</styleUrl>
 		<Point>
 			<coordinates>-82.65809689929722,37.16365486295865,0</coordinates>
 		</Point>
