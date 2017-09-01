@@ -3,11 +3,11 @@
 <Document>
 	<name>2017-08-15 Site Visit.kml</name>
 	<open>1</open>
-	<Style id="sh_panoramio_cluster_n23">
+	<Style id="h_photo">
 		<IconStyle>
 			<scale>0.6</scale>
 			<Icon>
-				<href>http://kh.google.com:80/flatfile?lf-0-icons/panoramio_cluster_n2.png</href>
+				<href>https://github.com/claytoncook12/CC-Google-Earth/blob/master/Icons/Panoramio%20Icon.png?raw=true</href>
 				<gx:w>32</gx:w>
 				<gx:h>32</gx:h>
 			</Icon>
@@ -21,11 +21,11 @@
 			<color>ff000000</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_panoramio_cluster_n23">
+	<Style id="n_photo">
 		<IconStyle>
 			<scale>0.4</scale>
 			<Icon>
-				<href>http://kh.google.com:80/flatfile?lf-0-icons/panoramio_cluster_n2.png</href>
+				<href>https://github.com/claytoncook12/CC-Google-Earth/blob/master/Icons/Panoramio%20Icon.png?raw=true</href>
 				<gx:w>32</gx:w>
 				<gx:h>32</gx:h>
 			</Icon>
@@ -42,74 +42,14 @@
 			<color>ff000000</color>
 		</PolyStyle>
 	</Style>
-	<Style id="pano_cluster3n9">
-		<IconStyle>
-			<scale>0.4</scale>
-			<Icon>
-				<href>http://kh.google.com:80/flatfile?lf-0-icons/panoramio_cluster_n2.png</href>
-				<gx:w>32</gx:w>
-				<gx:h>32</gx:h>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>0</width>
-			<gx:labelVisibility>1</gx:labelVisibility>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff000000</color>
-		</PolyStyle>
-	</Style>
-	<Style id="pano_cluster3h04">
-		<IconStyle>
-			<scale>0.6</scale>
-			<Icon>
-				<href>http://kh.google.com:80/flatfile?lf-0-icons/panoramio_cluster_n2.png</href>
-				<gx:w>32</gx:w>
-				<gx:h>32</gx:h>
-			</Icon>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>0</width>
-			<gx:labelVisibility>1</gx:labelVisibility>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff000000</color>
-		</PolyStyle>
-	</Style>
-	<Style id="pano_cluster3n04">
-		<IconStyle>
-			<scale>0.4</scale>
-			<Icon>
-				<href>http://kh.google.com:80/flatfile?lf-0-icons/panoramio_cluster_n2.png</href>
-				<gx:w>32</gx:w>
-				<gx:h>32</gx:h>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>0</width>
-			<gx:labelVisibility>1</gx:labelVisibility>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff000000</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_panoramio_cluster_n23">
+	<StyleMap id="photo">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_panoramio_cluster_n23</styleUrl>
+			<styleUrl>#n_photo</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_panoramio_cluster_n23</styleUrl>
+			<styleUrl>#h_photo</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="pano_cluster3h12">
@@ -130,31 +70,11 @@
 			<color>ff000000</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="105280405">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#pano_cluster3n9</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#pano_cluster3h04</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="10528049">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#pano_cluster3n04</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#pano_cluster3h12</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Placemark>
 		<name>IMG_20170815_140249.jpg</name>
 		<open>1</open>
 		<description><![CDATA[Image was taken on 2017/08/15<p><img src="https://i.imgbox.com/xe9sZRAg.jpg" width= "500" height="525"/></p>]]></description>
-		<styleUrl>#msn_panoramio_cluster_n23</styleUrl>
+		<styleUrl>#photo</styleUrl>
 		<Point>
 			<coordinates>-82.65161698010247,37.15985992548055,0</coordinates>
 		</Point>
@@ -162,7 +82,7 @@
 	<Placemark>
 		<name>IMG_20170815_142501.jpg</name>
 		<description><![CDATA[Image was taken on 2017/08/15<p><img src="https://i.imgbox.com/vHusWomQ.jpg" width= "500" height="525"/></p>]]></description>
-		<styleUrl>#105280405</styleUrl>
+		<styleUrl>#photo</styleUrl>
 		<Point>
 			<coordinates>-82.6517160320832,37.16004413950384,0</coordinates>
 		</Point>
@@ -170,7 +90,7 @@
 	<Placemark>
 		<name>IMG_20170815_143023.jpg</name>
 		<description><![CDATA[Image was taken on 2017/08/15<p><img src="https://i.imgbox.com/4zNJXLzs.jpg" width= "500" height="525"/></p>]]></description>
-		<styleUrl>#105280405</styleUrl>
+		<styleUrl>#photo</styleUrl>
 		<Point>
 			<coordinates>-82.65171603172389,37.1600507184363,0</coordinates>
 		</Point>
@@ -180,7 +100,7 @@
 		<description><![CDATA[Image was taken on 2017/08/15<br>
 Image taken of SouthWest Cut Through fault.
 <img src="https://i.imgbox.com/WMNp0w2v.jpg" width= "1217" height="554"/>]]></description>
-		<styleUrl>#105280405</styleUrl>
+		<styleUrl>#photo</styleUrl>
 		<Point>
 			<coordinates>-82.65188114438676,37.15987967181535,0</coordinates>
 		</Point>
@@ -190,7 +110,7 @@ Image taken of SouthWest Cut Through fault.
 		<description><![CDATA[Image was taken on 2017/08/15<br>
 Image was of NorthEast Cut Slope through fault.
 <img src="https://i.imgbox.com/3eCa0vxS.jpg" width= "1528" height="548"/>]]></description>
-		<styleUrl>#105280405</styleUrl>
+		<styleUrl>#photo</styleUrl>
 		<Point>
 			<coordinates>-82.65147663424162,37.16001123569431,0</coordinates>
 		</Point>
@@ -198,7 +118,7 @@ Image was of NorthEast Cut Slope through fault.
 	<Placemark>
 		<name>IMG_20170815_152257.jpg</name>
 		<description><![CDATA[Image was taken on 2017/08/15<p><img src="https://i.imgbox.com/q5Sgqv9d.jpg" width= "500" height="525"/></p>]]></description>
-		<styleUrl>#10528049</styleUrl>
+		<styleUrl>#photo</styleUrl>
 		<Point>
 			<coordinates>-82.66039444444445,37.16398333333333,0</coordinates>
 		</Point>
