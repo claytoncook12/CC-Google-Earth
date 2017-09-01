@@ -41,45 +41,6 @@
 			<color>ff000000</color>
 		</PolyStyle>
 	</Style>
-	<Style id="n_photo0">
-		<IconStyle>
-			<scale>0.4</scale>
-			<Icon>
-				<href>https://github.com/claytoncook12/CC-Google-Earth/blob/master/Icons/Panoramio%20Icon.png?raw=true</href>
-				<gx:w>32</gx:w>
-				<gx:h>32</gx:h>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>0</width>
-			<gx:labelVisibility>1</gx:labelVisibility>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff000000</color>
-		</PolyStyle>
-	</Style>
-	<Style id="h_photo0">
-		<IconStyle>
-			<scale>0.6</scale>
-			<Icon>
-				<href>https://github.com/claytoncook12/CC-Google-Earth/blob/master/Icons/Panoramio%20Icon.png?raw=true</href>
-				<gx:w>32</gx:w>
-				<gx:h>32</gx:h>
-			</Icon>
-		</IconStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>0</width>
-			<gx:labelVisibility>1</gx:labelVisibility>
-		</LineStyle>
-		<PolyStyle>
-			<color>ff000000</color>
-		</PolyStyle>
-	</Style>
 	<StyleMap id="photo">
 		<Pair>
 			<key>normal</key>
@@ -88,16 +49,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#h_photo0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="photo0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#n_photo0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#h_photo</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Placemark>
@@ -156,21 +107,7 @@ Image was of NorthEast Cut Slope through fault.
 	<Placemark>
 		<name>Trial.jpg</name>
 		<open>1</open>
-		<description><![CDATA[<html>
-<head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head>
-
-<body>
-
-<div class="container">
-  <div class="photo-frame">
-   <img src="https://i.imgbox.com/3eCa0vxS.jpg">
-   <div class="caption">
-    <p>Text Or Some Thing.</p>
-    <p> Some More Text.</p>
-    </div>
-</div>
-</body>
-</html>]]></description>
+		<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container"><div class="photo-frame"><img src="https://i.imgbox.com/3eCa0vxS.jpg"><div class="caption"><p>Text Or Some Thing.</p><p> Some More Text.</p></div></div></body></html>]]></description>
 		<styleUrl>#photo</styleUrl>
 		<Point>
 			<coordinates>-82.65809689929722,37.16365486295865,0</coordinates>
