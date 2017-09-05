@@ -107,7 +107,7 @@ Image was of NorthEast Cut Slope through fault.
 	<Placemark>
 		<name>Trial.jpg</name>
 		<open>1</open>
-		<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container"><div class="photo-frame"><img src="https://i.imgbox.com/3eCa0vxS.jpg"><div class="caption"><p>Text Or Some Thing.</p><p> Some More Text.</p></div></div></body></html>]]></description>
+		<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container"><div class="photo-frame"><img src="https://i.imgbox.com/3eCa0vxS.jpg"><div class="caption"><p>Text Caption.</p><p> Text Descripting Picture is needed.</p></div></div></body></html>]]></description>
 		<styleUrl>#photo</styleUrl>
 		<Point>
 			<coordinates>-82.65809689929722,37.16365486295865,0</coordinates>
