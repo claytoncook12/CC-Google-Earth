@@ -1,6 +1,4 @@
 .container {
-    width: 400px;
-    background-color: green;
 }
 
 h1 {
@@ -9,7 +7,7 @@ h1 {
 }
 
 img {
-    height: 600px;
+    height: 500px;
 }
 
 table {
@@ -24,5 +22,5 @@ td {
 
 th {
     text-align:left;
-    width: 100px;
+    width: 200px;
 }
