@@ -1,7 +1,6 @@
 .container {
     width: 550px;
     height: 600px;
-    overflow: scroll;
     overflow-x: hidden;
 }
 
