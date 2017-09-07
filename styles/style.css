@@ -7,8 +7,8 @@ h1 {
 }
 
 img {
-    height: 500px;
-    width: 600px
+    max-height: 500px;
+    max-width: 600px
 }
 
 table {
