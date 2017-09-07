@@ -1,6 +1,10 @@
 .container {
 }
 
+h1 {
+    text-align: center;
+}
+
 img {
     height: 600px;
 }
@@ -11,8 +15,6 @@ img {
 }
 
 .caption {
-   text-align: center;
-   font-size: 120%;
-   margin-top: 10px;
+   margin-top: 100px;
    margin-bottom: 10px;
 }
