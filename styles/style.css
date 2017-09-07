@@ -3,7 +3,7 @@
 
 h1 {
     text-align: center;
-    color: blue;
+    text-decoration: underline;
 }
 
 img {
@@ -12,8 +12,15 @@ img {
 
 table {
    margin: 10px;
+   table-layout: fixed;
 }
 
 td {
-    text-align: center;
+    text-align:center;
+    width: 200px;
+}
+
+th {
+    text-align:left;
+    width: 100px;
 }
