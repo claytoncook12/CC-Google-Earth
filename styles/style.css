@@ -12,7 +12,7 @@ h1 {
 
 img {
     height: 500px;
-    overflow-x: hidden;
+    overflow-x: scroll;
 }
 
 table {
