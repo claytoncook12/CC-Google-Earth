@@ -56,9 +56,23 @@
 			<styleUrl>#h_photo</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Folder>
+  		<name>Distict 12</name>
+  			<Region>
+    			<LatLonAltBox>
+      				<north>38.311707</north>
+      				<south>36.886149</south>
+      				<east>-81.889312</east>
+      				<west>-83.193320</west>
+    			</LatLonAltBox>
+    			<Lod>
+      				<minLodPixels>600</minLodPixels>
+    			</Lod>
+			</Region>
 	<Placemark>
 		<name>IMG_20170815_143023.jpg</name>
 		<Snippet maxLines="0"></Snippet>
+		<visibility>0</visibility>
 		<styleUrl>#photo</styleUrl>
 		<description>
 			<![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
@@ -89,5 +103,6 @@
 			<coordinates>-82.65809689929722,37.16365486295865,0</coordinates>
 		</Point>
 	</Placemark>
+	</Folder>
 </Document>
 </kml>
