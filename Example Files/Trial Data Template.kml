@@ -19,6 +19,9 @@
 		<PolyStyle>
 			<color>ff000000</color>
 		</PolyStyle>
+		<BalloonSytle>
+			<text>$[description]</text>
+		</BalloonSytle>
 	</Style>
 	<Style id="n_photo">
 		<IconStyle>
@@ -41,9 +44,7 @@
 			<color>ff000000</color>
 		</PolyStyle>
 		<BalloonSytle>
-			<text>
-			$[description]
-			</text>
+			<text>$[description]</text>
 		</BalloonSytle>
 	</Style>
 	<StyleMap id="photo">
@@ -72,7 +73,6 @@
 	<Placemark>
 		<name>IMG_20170815_143023.jpg</name>
 		<Snippet maxLines="0"></Snippet>
-		<visibility>0</visibility>
 		<styleUrl>#photo</styleUrl>
 		<description>
 			<![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
@@ -96,7 +96,7 @@
 				<value>[Insert Descritption of Image]</value>
 			</Data>
 			<Data name="imgURL">
-				<value>https://i.imgbox.com/xe9sZRAg.jpg</value>
+				<value>https://i.imgbox.com/4zNJXLzs.jpg</value>
 			</Data>
 		</ExtendedData>
 		<Point>
