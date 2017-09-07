@@ -3,18 +3,17 @@
 
 h1 {
     text-align: center;
+    color: blue;
 }
 
 img {
     height: 600px;
 }
 
-.photo-frame {
-    padding: 10px;
-    margin: auto;
+table {
+   margin: 10px;
 }
 
-.caption {
-   margin-top: 100px;
-   margin-bottom: 10px;
+th {
+    text-align: center;
 }
