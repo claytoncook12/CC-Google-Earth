@@ -13,6 +13,8 @@ h1 {
 img {
     height: 300px;
     overflow-x: scroll;
+    display : block;
+    margin : auto;
 }
 
 table {
