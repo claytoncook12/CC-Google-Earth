@@ -2,23 +2,10 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Clayton Cook KYTC Photos</name>
-	<open>1</open>
 	<Schema name="cb_2016_us_county_500k" id="kml_schema_ft_cb_2016_us_county_500k">
 		<SimpleField type="xsd:string" name="NAME"><displayName>NAME</displayName>
 </SimpleField>
 	</Schema>
-	<Style id="StateOutline">
-		<IconStyle>
-			<scale>0.8</scale>
-		</IconStyle>
-		<LineStyle>
-			<color>ffbc822f</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>7fe1ca9e</color>
-		</PolyStyle>
-	</Style>
 	<Style id="h_photo">
 		<IconStyle>
 			<scale>0.6</scale>
@@ -39,6 +26,311 @@
 		<BalloonSytle>
 			<text>$[description]</text>
 		</BalloonSytle>
+	</Style>
+	<Style id="CountiesStyle">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffd6a3a1</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fd6a3a1</color>
+		</PolyStyle>
+	</Style>
+	<Style id="CountiesStyle0">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff959ab8</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f959ab8</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="CountiesStyle1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#CountiesStyle26</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#CountiesStyle20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="CountiesStyle2">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff9abaa0</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f9abaa0</color>
+		</PolyStyle>
+	</Style>
+	<Style id="CountiesStyle3">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffaea791</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7faea791</color>
+		</PolyStyle>
+	</Style>
+	<Style id="CountiesStyle4">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffb091b9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fb091b9</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="CountiesStyle5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#CountiesStyle10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#CountiesStyle24</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="CountiesStyle6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#CountiesStyle2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#CountiesStyle27</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="CountiesStyle7">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff8ad1b1</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f8ad1b1</color>
+		</PolyStyle>
+	</Style>
+	<Style id="CountiesStyle8">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffe6a7f1</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fe6a7f1</color>
+		</PolyStyle>
+	</Style>
+	<Style id="CountiesStyle9">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffdcc1f5</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fdcc1f5</color>
+		</PolyStyle>
+	</Style>
+	<Style id="CountiesStyle10">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff93a6ed</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f93a6ed</color>
+		</PolyStyle>
+	</Style>
+	<Style id="CountiesStyle11">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffb3c5e9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fb3c5e9</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="CountiesStyle12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#CountiesStyle31</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#CountiesStyle11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="CountiesStyle13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#CountiesStyle34</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#CountiesStyle8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="photo">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#n_photo</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#h_photo</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="CountiesStyle14">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff959ab8</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f959ab8</color>
+		</PolyStyle>
+	</Style>
+	<Style id="CountiesStyle15">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffaea791</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7faea791</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="CountiesStyle16">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#CountiesStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#CountiesStyle28</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="CountiesStyle17">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffa5ddf2</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fa5ddf2</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="CountiesStyle18">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#CountiesStyle3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#CountiesStyle15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="CountiesStyle19">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff8ad1b1</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f8ad1b1</color>
+		</PolyStyle>
+	</Style>
+	<Style id="CountiesStyle20">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffe2e5b1</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fe2e5b1</color>
+		</PolyStyle>
 	</Style>
 	<Style id="n_photo">
 		<IconStyle>
@@ -64,31 +356,201 @@
 			<text>$[description]</text>
 		</BalloonSytle>
 	</Style>
-	<StyleMap id="photo">
+	<StyleMap id="CountiesStyle21">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#n_photo</styleUrl>
+			<styleUrl>#CountiesStyle23</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#h_photo</styleUrl>
+			<styleUrl>#CountiesStyle9</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="CountiesStyle">
+	<StyleMap id="CountiesStyle22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#CountiesStyle17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#CountiesStyle25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="CountiesStyle23">
 		<IconStyle>
 			<scale>0.8</scale>
 		</IconStyle>
-		<LabelStyle>
-		</LabelStyle>
 		<BalloonStyle>
 			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
 		</BalloonStyle>
+		<LineStyle>
+			<color>ffdcc1f5</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fdcc1f5</color>
+		</PolyStyle>
+	</Style>
+	<Style id="CountiesStyle24">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff93a6ed</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f93a6ed</color>
+		</PolyStyle>
+	</Style>
+	<Style id="CountiesStyle25">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffa5ddf2</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fa5ddf2</color>
+		</PolyStyle>
+	</Style>
+	<Style id="CountiesStyle26">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffe2e5b1</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fe2e5b1</color>
+		</PolyStyle>
+	</Style>
+	<Style id="CountiesStyle27">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff9abaa0</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f9abaa0</color>
+		</PolyStyle>
+	</Style>
+	<Style id="CountiesStyle28">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffd6a3a1</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fd6a3a1</color>
+		</PolyStyle>
+	</Style>
+	<Style id="CountiesStyle29">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffb091b9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fb091b9</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="CountiesStyle30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#CountiesStyle14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#CountiesStyle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="CountiesStyle31">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffb3c5e9</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fb3c5e9</color>
+		</PolyStyle>
+	</Style>
+	<Style id="StateOutline">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
 		<LineStyle>
 			<color>ffbc822f</color>
 			<width>2</width>
 		</LineStyle>
 		<PolyStyle>
 			<color>7fe1ca9e</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="CountiesStyle32">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#CountiesStyle29</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#CountiesStyle4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="CountiesStyle33">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#CountiesStyle19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#CountiesStyle7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="CountiesStyle34">
+		<IconStyle>
+			<scale>0.8</scale>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h2 align="center">$[cb_2016_us_county_500k/NAME] County<h2>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffe6a7f1</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fe6a7f1</color>
 		</PolyStyle>
 	</Style>
 	<Folder>
@@ -352,7 +814,6 @@
 	</Folder>
 	<Folder>
 		<name>Kentucky State Outline</name>
-		<open>1</open>
 		<Placemark id="cb_2016_us_state_500k.kml">
 			<name>Kentucky</name>
 			<styleUrl>#StateOutline</styleUrl>
@@ -382,12 +843,11 @@
 		</Placemark>
 		<Folder id="kml_ft_cb_2016_us_county_500k">
 			<name>Counties</name>
-			<open>1</open>
 			<Folder>
 				<name>Distirct 1</name>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Trigg&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle16</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Trigg</SimpleData>
@@ -406,7 +866,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Marshall&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle16</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Marshall</SimpleData>
@@ -425,7 +885,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;McCracken&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle16</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">McCracken</SimpleData>
@@ -444,7 +904,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Lyon&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle16</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Lyon</SimpleData>
@@ -463,7 +923,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Livingston&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle16</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Livingston</SimpleData>
@@ -482,7 +942,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Hickman&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle16</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Hickman</SimpleData>
@@ -501,7 +961,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Graves&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle16</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Graves</SimpleData>
@@ -520,7 +980,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Fulton&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle16</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Fulton</SimpleData>
@@ -552,7 +1012,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Crittenden&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle16</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Crittenden</SimpleData>
@@ -571,7 +1031,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Carlisle&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle16</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Carlisle</SimpleData>
@@ -590,7 +1050,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Calloway&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle16</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Calloway</SimpleData>
@@ -609,7 +1069,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Ballard&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle16</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Ballard</SimpleData>
@@ -631,7 +1091,7 @@
 				<name>Distirct 2</name>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Webster&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle33</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Webster</SimpleData>
@@ -650,7 +1110,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Union&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle33</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Union</SimpleData>
@@ -669,7 +1129,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Ohio&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle33</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Ohio</SimpleData>
@@ -688,7 +1148,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Muhlenberg&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle33</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Muhlenberg</SimpleData>
@@ -707,7 +1167,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;McLean&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle33</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">McLean</SimpleData>
@@ -726,7 +1186,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Hopkins&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle33</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Hopkins</SimpleData>
@@ -745,7 +1205,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Henderson&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle33</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Henderson</SimpleData>
@@ -764,7 +1224,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Hancock&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle33</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Hancock</SimpleData>
@@ -783,7 +1243,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Daviess&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle33</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Daviess</SimpleData>
@@ -802,7 +1262,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Christian&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle33</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Christian</SimpleData>
@@ -821,7 +1281,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Caldwell&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle33</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Caldwell</SimpleData>
@@ -843,7 +1303,7 @@
 				<name>Distirct 3</name>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Warren&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle5</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Warren</SimpleData>
@@ -862,7 +1322,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Todd&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle5</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Todd</SimpleData>
@@ -881,7 +1341,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Simpson&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle5</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Simpson</SimpleData>
@@ -900,7 +1360,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Monroe&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle5</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Monroe</SimpleData>
@@ -919,7 +1379,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Metcalfe&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle5</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Metcalfe</SimpleData>
@@ -938,7 +1398,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Logan&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle5</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Logan</SimpleData>
@@ -957,7 +1417,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Edmonson&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle5</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Edmonson</SimpleData>
@@ -976,7 +1436,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Butler&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle5</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Butler</SimpleData>
@@ -995,7 +1455,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Barren&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle5</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Barren</SimpleData>
@@ -1014,7 +1474,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Allen&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle5</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Allen</SimpleData>
@@ -1036,7 +1496,7 @@
 				<name>Distirct 4</name>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Washington&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle1</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Washington</SimpleData>
@@ -1055,7 +1515,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Taylor&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle1</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Taylor</SimpleData>
@@ -1074,7 +1534,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Nelson&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle1</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Nelson</SimpleData>
@@ -1093,7 +1553,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Meade&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle1</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Meade</SimpleData>
@@ -1112,7 +1572,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Marion&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle1</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Marion</SimpleData>
@@ -1131,7 +1591,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Larue&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle1</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Larue</SimpleData>
@@ -1150,7 +1610,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Hart&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle1</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Hart</SimpleData>
@@ -1169,7 +1629,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Hardin&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle1</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Hardin</SimpleData>
@@ -1188,7 +1648,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Green&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle1</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Green</SimpleData>
@@ -1207,7 +1667,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Grayson&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle1</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Grayson</SimpleData>
@@ -1226,7 +1686,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Breckinridge&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle1</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Breckinridge</SimpleData>
@@ -1248,7 +1708,7 @@
 				<name>Distirct 5</name>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Trimble&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle21</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Trimble</SimpleData>
@@ -1267,7 +1727,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Spencer&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle21</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Spencer</SimpleData>
@@ -1286,7 +1746,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Shelby&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle21</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Shelby</SimpleData>
@@ -1305,7 +1765,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Oldham&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle21</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Oldham</SimpleData>
@@ -1324,7 +1784,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Jefferson&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle21</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Jefferson</SimpleData>
@@ -1343,7 +1803,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Henry&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle21</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Henry</SimpleData>
@@ -1362,7 +1822,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Franklin&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle21</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Franklin</SimpleData>
@@ -1381,7 +1841,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Bullitt&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle21</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Bullitt</SimpleData>
@@ -1403,7 +1863,7 @@
 				<name>Distirct 6</name>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Robertson&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle22</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Robertson</SimpleData>
@@ -1422,7 +1882,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Pendleton&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle22</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Pendleton</SimpleData>
@@ -1441,7 +1901,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Owen&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle22</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Owen</SimpleData>
@@ -1460,7 +1920,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Kenton&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle22</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Kenton</SimpleData>
@@ -1479,7 +1939,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Harrison&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle22</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Harrison</SimpleData>
@@ -1498,7 +1958,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Grant&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle22</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Grant</SimpleData>
@@ -1517,7 +1977,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Gallatin&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle22</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Gallatin</SimpleData>
@@ -1536,7 +1996,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Carroll&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle22</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Carroll</SimpleData>
@@ -1555,7 +2015,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Campbell&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle22</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Campbell</SimpleData>
@@ -1574,7 +2034,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Bracken&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle22</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Bracken</SimpleData>
@@ -1593,7 +2053,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Boone&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle22</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Boone</SimpleData>
@@ -1615,7 +2075,7 @@
 				<name>Distirct 7</name>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Woodford&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle18</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Woodford</SimpleData>
@@ -1634,7 +2094,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Scott&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle18</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Scott</SimpleData>
@@ -1653,7 +2113,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Montgomery&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle18</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Montgomery</SimpleData>
@@ -1672,7 +2132,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Mercer&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle18</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Mercer</SimpleData>
@@ -1691,7 +2151,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Madison&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle18</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Madison</SimpleData>
@@ -1710,7 +2170,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Jessamine&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle18</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Jessamine</SimpleData>
@@ -1729,7 +2189,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Garrard&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle18</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Garrard</SimpleData>
@@ -1748,7 +2208,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Fayette&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle18</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Fayette</SimpleData>
@@ -1767,7 +2227,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Clark&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle18</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Clark</SimpleData>
@@ -1786,7 +2246,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Boyle&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle18</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Boyle</SimpleData>
@@ -1805,7 +2265,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Bourbon&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle18</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Bourbon</SimpleData>
@@ -1824,7 +2284,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Anderson&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle18</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Anderson</SimpleData>
@@ -1846,7 +2306,7 @@
 				<name>Distirct 8</name>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Wayne&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle30</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Wayne</SimpleData>
@@ -1865,7 +2325,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Russell&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle30</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Russell</SimpleData>
@@ -1884,7 +2344,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Rockcastle&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle30</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Rockcastle</SimpleData>
@@ -1903,7 +2363,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Pulaski&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle30</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Pulaski</SimpleData>
@@ -1922,7 +2382,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;McCreary&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle30</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">McCreary</SimpleData>
@@ -1941,7 +2401,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Lincoln&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle30</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Lincoln</SimpleData>
@@ -1960,7 +2420,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Cumberland&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle30</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Cumberland</SimpleData>
@@ -1979,7 +2439,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Clinton&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle30</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Clinton</SimpleData>
@@ -1998,7 +2458,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Casey&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle30</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Casey</SimpleData>
@@ -2017,7 +2477,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Adair&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle30</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Adair</SimpleData>
@@ -2039,7 +2499,7 @@
 				<name>Distirct 9</name>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Rowan&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle6</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Rowan</SimpleData>
@@ -2058,7 +2518,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Nicholas&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle6</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Nicholas</SimpleData>
@@ -2077,7 +2537,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Mason&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle6</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Mason</SimpleData>
@@ -2096,7 +2556,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Lewis&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle6</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Lewis</SimpleData>
@@ -2115,7 +2575,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Greenup&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle6</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Greenup</SimpleData>
@@ -2134,7 +2594,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Fleming&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle6</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Fleming</SimpleData>
@@ -2153,7 +2613,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Elliott&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle6</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Elliott</SimpleData>
@@ -2172,7 +2632,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Carter&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle6</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Carter</SimpleData>
@@ -2191,7 +2651,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Boyd&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle6</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Boyd</SimpleData>
@@ -2210,7 +2670,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Bath&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle6</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Bath</SimpleData>
@@ -2232,7 +2692,7 @@
 				<name>Distirct 10</name>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Wolfe&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle12</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Wolfe</SimpleData>
@@ -2251,7 +2711,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Powell&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle12</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Powell</SimpleData>
@@ -2270,7 +2730,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Perry&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle12</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Perry</SimpleData>
@@ -2289,7 +2749,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Owsley&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle12</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Owsley</SimpleData>
@@ -2308,7 +2768,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Morgan&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle12</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Morgan</SimpleData>
@@ -2327,7 +2787,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Menifee&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle12</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Menifee</SimpleData>
@@ -2346,7 +2806,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Magoffin&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle12</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Magoffin</SimpleData>
@@ -2365,7 +2825,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Lee&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle12</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Lee</SimpleData>
@@ -2384,7 +2844,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Estill&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle12</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Estill</SimpleData>
@@ -2403,7 +2863,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Breathitt&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle12</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Breathitt</SimpleData>
@@ -2425,7 +2885,7 @@
 				<name>Distirct 11</name>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Whitley&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle32</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Whitley</SimpleData>
@@ -2444,7 +2904,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Leslie&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle32</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Leslie</SimpleData>
@@ -2463,7 +2923,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Laurel&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle32</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Laurel</SimpleData>
@@ -2482,7 +2942,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Knox&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle32</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Knox</SimpleData>
@@ -2501,7 +2961,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Jackson&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle32</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Jackson</SimpleData>
@@ -2520,7 +2980,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Harlan&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle32</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Harlan</SimpleData>
@@ -2539,7 +2999,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Clay&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle32</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Clay</SimpleData>
@@ -2558,7 +3018,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Bell&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle32</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Bell</SimpleData>
@@ -2580,7 +3040,7 @@
 				<name>Distirct 12</name>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Pike&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle13</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Pike</SimpleData>
@@ -2599,7 +3059,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Martin&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle13</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Martin</SimpleData>
@@ -2618,7 +3078,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Letcher&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle13</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Letcher</SimpleData>
@@ -2637,7 +3097,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Lawrence&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle13</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Lawrence</SimpleData>
@@ -2656,7 +3116,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Knott&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle13</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Knott</SimpleData>
@@ -2675,7 +3135,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Johnson&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle13</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Johnson</SimpleData>
@@ -2694,7 +3154,7 @@
 				</Placemark>
 				<Placemark id="cb_2016_us_county_500k.kml">
 					<name>&lt;at&gt;&lt;openparen&gt;Floyd&lt;closeparen&gt;</name>
-					<styleUrl>#CountiesStyle</styleUrl>
+					<styleUrl>#CountiesStyle13</styleUrl>
 					<ExtendedData>
 						<SchemaData schemaUrl="#kml_schema_ft_cb_2016_us_county_500k">
 							<SimpleData name="NAME">Floyd</SimpleData>
