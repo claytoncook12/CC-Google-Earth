@@ -92,7 +92,7 @@
 		</PolyStyle>
 	</Style>
 	<Folder>
-		<name>Distict 1</name>
+		<name>District 1</name>
 		<Region>
 			<LatLonAltBox>
 				<north>37.555615</north>
@@ -111,7 +111,7 @@
 		</Region>
 	</Folder>
 	<Folder>
-		<name>Distict 2</name>
+		<name>District 2</name>
 		<Region>
 			<LatLonAltBox>
 				<north>38.006619</north>
@@ -130,7 +130,7 @@
 		</Region>
 	</Folder>
 	<Folder>
-		<name>Distict 3</name>
+		<name>District 3</name>
 		<Region>
 			<LatLonAltBox>
 				<north>37.404998</north>
@@ -149,7 +149,7 @@
 		</Region>
 	</Folder>
 	<Folder>
-		<name>Distict 4</name>
+		<name>District 4</name>
 		<Region>
 			<LatLonAltBox>
 				<north>38.149271</north>
@@ -168,7 +168,7 @@
 		</Region>
 	</Folder>
 	<Folder>
-		<name>Distict 5</name>
+		<name>District 5</name>
 		<Region>
 			<LatLonAltBox>
 				<north>38.825029</north>
@@ -187,7 +187,7 @@
 		</Region>
 	</Folder>
 	<Folder>
-		<name>Distict 6</name>
+		<name>District 6</name>
 		<Region>
 			<LatLonAltBox>
 				<north>39.181583</north>
@@ -206,7 +206,7 @@
 		</Region>
 	</Folder>
 	<Folder>
-		<name>Distict 7</name>
+		<name>District 7</name>
 		<Region>
 			<LatLonAltBox>
 				<north>38.498925</north>
@@ -225,7 +225,7 @@
 		</Region>
 	</Folder>
 	<Folder>
-		<name>Distict 8</name>
+		<name>District 8</name>
 		<Region>
 			<LatLonAltBox>
 				<north>37.565802</north>
@@ -244,7 +244,7 @@
 		</Region>
 	</Folder>
 	<Folder>
-		<name>Distict 9</name>
+		<name>District 9</name>
 		<Region>
 			<LatLonAltBox>
 				<north>38.727862</north>
@@ -263,7 +263,7 @@
 		</Region>
 	</Folder>
 	<Folder>
-		<name>Distict 10</name>
+		<name>District 10</name>
 		<Region>
 			<LatLonAltBox>
 				<north>38.035343</north>
@@ -282,7 +282,7 @@
 		</Region>
 	</Folder>
 	<Folder>
-		<name>Distict 11</name>
+		<name>District 11</name>
 		<Region>
 			<LatLonAltBox>
 				<north>37.569048</north>
@@ -301,7 +301,7 @@
 		</Region>
 	</Folder>
 	<Folder>
-		<name>Distict 12</name>
+		<name>District 12</name>
 		<Region>
 			<LatLonAltBox>
 				<north>38.311707</north>
