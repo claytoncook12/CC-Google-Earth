@@ -58,6 +58,160 @@
 		</Pair>
 	</StyleMap>
 	<Folder>
+		<name>Distict 1</name>
+  			<Region>
+    			<LatLonAltBox>
+      				<north>37.555615</north>
+      				<south>36.446468</south>
+      				<east>-87.789276</east>
+      				<west>-89.640178</west>
+    			</LatLonAltBox>
+    			<Lod>
+      				<minLodPixels>600</minLodPixels>
+    			</Lod>
+			</Region>
+	</Folder>
+	<Folder>
+		<name>Distict 2</name>
+  			<Region>
+    			<LatLonAltBox>
+      				<north>38.006619</north>
+      				<south>36.531045</south>
+      				<east>-86.566686</east>
+      				<west>-88.200766</west>
+    			</LatLonAltBox>
+    			<Lod>
+      				<minLodPixels>600</minLodPixels>
+    			</Lod>
+			</Region>
+	</Folder>
+	<Folder>
+		<name>Distict 3</name>
+  			<Region>
+    			<LatLonAltBox>
+      				<north>37.404998</north>
+      				<south>36.609847</south>
+      				<east>-85.312611</east>
+      				<west>-87.407688</west>
+    			</LatLonAltBox>
+    			<Lod>
+      				<minLodPixels>600</minLodPixels>
+    			</Lod>
+			</Region>
+	</Folder>
+	<Folder>
+		<name>Distict 4</name>
+  			<Region>
+    			<LatLonAltBox>
+      				<north>38.149271</north>
+      				<south>37.040332</south>
+      				<east>-84.895253</east>
+      				<west>-86.743971</west>
+    			</LatLonAltBox>
+    			<Lod>
+      				<minLodPixels>600</minLodPixels>
+    			</Lod>
+			</Region>
+	</Folder>
+	<Folder>
+		<name>Distict 5</name>
+  			<Region>
+    			<LatLonAltBox>
+      				<north>38.825029</north>
+      				<south>37.710791</south>
+      				<east>-84.584787</east>
+      				<west>-86.122663</west>
+    			</LatLonAltBox>
+    			<Lod>
+      				<minLodPixels>600</minLodPixels>
+    			</Lod>
+			</Region>
+	</Folder>
+	<Folder>
+		<name>Distict 6</name>
+  			<Region>
+    			<LatLonAltBox>
+      				<north>39.181583</north>
+      				<south>38.165619</south>
+      				<east>-83.837861</east>
+      				<west>-85.401418</west>
+    			</LatLonAltBox>
+    			<Lod>
+      				<minLodPixels>600</minLodPixels>
+    			</Lod>
+			</Region>
+	</Folder>
+	<Folder>
+		<name>Distict 7</name>
+  			<Region>
+    			<LatLonAltBox>
+      				<north>38.498925</north>
+      				<south>37.375286</south>
+      				<east>-83.413028</east>
+      				<west>-85.280520</west>
+    			</LatLonAltBox>
+    			<Lod>
+      				<minLodPixels>600</minLodPixels>
+    			</Lod>
+			</Region>
+	</Folder>
+	<Folder>
+		<name>Distict 8</name>
+  			<Region>
+    			<LatLonAltBox>
+      				<north>37.565802</north>
+      				<south>36.583662</south>
+      				<east>-84.007368</east>
+      				<west>-85.698376</west>
+    			</LatLonAltBox>
+    			<Lod>
+      				<minLodPixels>600</minLodPixels>
+    			</Lod>
+			</Region>
+	</Folder>
+	<Folder>
+		<name>Distict 9</name>
+  			<Region>
+    			<LatLonAltBox>
+      				<north>38.727862</north>
+      				<south>37.983133</south>
+      				<east>-82.523607</east>
+      				<west>-84.236985</west>
+    			</LatLonAltBox>
+    			<Lod>
+      				<minLodPixels>600</minLodPixels>
+    			</Lod>
+			</Region>
+	</Folder>
+	<Folder>
+		<name>Distict 10</name>
+  			<Region>
+    			<LatLonAltBox>
+      				<north>38.035343</north>
+      				<south>36.979646</south>
+      				<east>-82.761454</east>
+      				<west>-84.290146</west>
+    			</LatLonAltBox>
+    			<Lod>
+      				<minLodPixels>600</minLodPixels>
+    			</Lod>
+			</Region>
+	</Folder>
+	<Folder>
+		<name>Distict 11</name>
+  			<Region>
+    			<LatLonAltBox>
+      				<north>37.569048</north>
+      				<south>36.572759</south>
+      				<east>-82.608458</east>
+      				<west>-84.448730</west>
+    			</LatLonAltBox>
+    			<Lod>
+      				<minLodPixels>600</minLodPixels>
+    			</Lod>
+			</Region>
+	</Folder>
+	<Folder>
   		<name>Distict 12</name>
   			<Region>
     			<LatLonAltBox>
@@ -70,39 +224,39 @@
       				<minLodPixels>600</minLodPixels>
     			</Lod>
 			</Region>
-	<Placemark>
-		<name>IMG_20170815_143023.jpg</name>
-		<Snippet maxLines="0"></Snippet>
-		<styleUrl>#photo</styleUrl>
-		<description>
-			<![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
-			<h1>$[name]</h1>
-			<div class="photo-frame"><img src=$[imgURL]></div>
-			<h2><em>Picture Details<em></h2>
-			<div class="caption">
-				<table>
-				<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate]</td></tr>
-				<tr bgcolor=""><th>Description</th><td>$[imgDisc]</td></tr>
-				<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL]">$[imgURL]</a></td></tr>
-				</table>
-			</div>
-			</body></html>]]>
-		</description>
-		<ExtendedData>
-			<Data name="imgDate">
-				<value>2017/08/15</value>
-			</Data>
-			<Data name="imgDisc">
-				<value>[Insert Descritption of Image]</value>
-			</Data>
-			<Data name="imgURL">
-				<value>https://i.imgbox.com/4zNJXLzs.jpg</value>
-			</Data>
-		</ExtendedData>
-		<Point>
-			<coordinates>-82.65809689929722,37.16365486295865,0</coordinates>
-		</Point>
-	</Placemark>
+				<Placemark>
+					<name>IMG_20170815_143023.jpg</name>
+					<Snippet maxLines="0"></Snippet>
+					<styleUrl>#photo</styleUrl>
+					<description>
+						<![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+						<h1>$[name]</h1>
+						<div class="photo-frame"><img src=$[imgURL]></div>
+						<h2><em>Picture Details<em></h2>
+						<div class="caption">
+							<table>
+							<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate]</td></tr>
+							<tr bgcolor=""><th>Description</th><td>$[imgDisc]</td></tr>
+							<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL]">$[imgURL]</a></td></tr>
+							</table>
+						</div>
+						</body></html>]]>
+					</description>
+					<ExtendedData>
+						<Data name="imgDate">
+							<value>2017/08/15</value>
+						</Data>
+						<Data name="imgDisc">
+							<value>[Insert Descritption of Image]</value>
+						</Data>
+						<Data name="imgURL">
+							<value>https://i.imgbox.com/4zNJXLzs.jpg</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-82.65809689929722,37.16365486295865,0</coordinates>
+					</Point>
+				</Placemark>
 	</Folder>
 </Document>
 </kml>
