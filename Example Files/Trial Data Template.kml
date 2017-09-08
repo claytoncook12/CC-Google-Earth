@@ -7,29 +7,7 @@
 		<SimpleField type="xsd:string" name="NAME"><displayName>NAME</displayName>
 </SimpleField>
 	</Schema>
-	<StyleMap id="StateOutline">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#StateOutline0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#StateOutline1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="StateOutline0">
-		<IconStyle>
-			<scale>0.8</scale>
-		</IconStyle>
-		<LineStyle>
-			<color>ffbc822f</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>7fe1ca9e</color>
-		</PolyStyle>
-	</Style>
-	<Style id="StateOutline1">
+	<Style id="StateOutline">
 		<IconStyle>
 			<scale>0.8</scale>
 		</IconStyle>
