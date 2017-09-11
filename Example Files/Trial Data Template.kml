@@ -815,7 +815,7 @@
 		</Placemark>
 	</Folder>
 	<Folder>
-		<name>Kentucky State Outline</name>
+		<name>Boundary Outline</name>
 		<Placemark id="cb_2016_us_state_500k.kml">
 			<name>Kentucky</name>
 			<styleUrl>#StateOutline</styleUrl>
@@ -844,7 +844,7 @@
 			</MultiGeometry>
 		</Placemark>
 		<Folder id="kml_ft_cb_2016_us_county_500k">
-			<name>Counties</name>
+			<name>KYTC District Counties</name>
 			<Folder>
 				<name>Distirct 1</name>
 				<Placemark id="cb_2016_us_county_500k.kml">
