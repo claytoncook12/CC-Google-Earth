@@ -3,8 +3,7 @@
 <Document>
 	<name>Clayton Cook KYTC Photos</name>
 	<Schema name="cb_2016_us_county_500k" id="kml_schema_ft_cb_2016_us_county_500k">
-		<SimpleField type="xsd:string" name="NAME"><displayName>NAME</displayName>
-</SimpleField>
+		<SimpleField type="xsd:string" name="NAME"><displayName>NAME</displayName></SimpleField>
 	</Schema>
 	<Style id="h_photo">
 		<IconStyle>
@@ -784,26 +783,29 @@
 			<name>IMG_20170815_143023.jpg</name>
 			<Snippet maxLines="0"></Snippet>
 			<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
-						<h1>$[name]</h1>
-						<div class="photo-frame"><img src=$[imgURL]></div>
+						<h1>$[imgName1]</h1>
+						<div class="photo-frame"><img src=$[imgURL1]></div>
 						<h2><em>Picture Details<em></h2>
 						<div class="caption">
 							<table>
-							<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate]</td></tr>
-							<tr bgcolor=""><th>Description</th><td>$[imgDisc]</td></tr>
-							<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL]">$[imgURL]</a></td></tr>
+							<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+							<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+							<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
 							</table>
 						</div>
 						</body></html>]]></description>
 			<styleUrl>#photo</styleUrl>
 			<ExtendedData>
-				<Data name="imgDate">
+				<Data name="imgName1">
+					<value>IMG_20170815_143023.jpg</value>
+				</Data>
+				<Data name="imgDate1">
 					<value>2017/08/15</value>
 				</Data>
-				<Data name="imgDisc">
+				<Data name="imgDisc1">
 					<value>[Insert Descritption of Image]</value>
 				</Data>
-				<Data name="imgURL">
+				<Data name="imgURL1">
 					<value>https://i.imgbox.com/4zNJXLzs.jpg</value>
 				</Data>
 			</ExtendedData>
