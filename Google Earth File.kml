@@ -627,6 +627,451 @@
 				<maxFadeExtent>0</maxFadeExtent>
 			</Lod>
 		</Region>
+		<Folder>
+			<name>2017-01-20 Site Visit</name>
+			<Placemark>
+				<name>IMG_20170120_110052.jpg</name>
+				<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+								<h1>$[imgName1]</h1>
+								<div class="photo-frame"><img src=$[imgURL1]></div>
+								<h2><em>Picture Details<em></h2>
+								<div class="caption">
+									<table>
+									<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+									<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+									<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+									</table>
+								</div>
+								</body></html>]]></description>
+					<styleUrl>#photo</styleUrl>
+					<ExtendedData>
+						<Data name="imgName1">
+							<value>IMG_20170120_110052.jpg</value>
+						</Data>
+						<Data name="imgDate1">
+							<value>2017/01/20</value>
+						</Data>
+						<Data name="imgDisc1">
+							<value>[Insert Descritption of Image]</value>
+						</Data>
+						<Data name="imgURL1">
+							<value>IMG_20170120_110052.jpg</value>
+						</Data>
+					</ExtendedData>
+				<Point>
+					<coordinates>-85.84796048127195,37.67138896626024,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IMG_20170120_110304.jpg</name>
+				<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+								<h1>$[imgName1]</h1>
+								<div class="photo-frame"><img src=$[imgURL1]></div>
+								<h2><em>Picture Details<em></h2>
+								<div class="caption">
+									<table>
+									<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+									<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+									<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+									</table>
+								</div>
+								</body></html>]]></description>
+					<styleUrl>#photo</styleUrl>
+					<ExtendedData>
+						<Data name="imgName1">
+							<value>IMG_20170120_110304.jpg</value>
+						</Data>
+						<Data name="imgDate1">
+							<value>2017/01/20</value>
+						</Data>
+						<Data name="imgDisc1">
+							<value>[Insert Descritption of Image]</value>
+						</Data>
+						<Data name="imgURL1">
+							<value>IMG_20170120_110304.jpg</value>
+						</Data>
+					</ExtendedData>
+				<Point>
+					<coordinates>-85.84770193189755,37.67148824754715,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IMG_20170120_120324.jpg</name>
+				<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+								<h1>$[imgName1]</h1>
+								<div class="photo-frame"><img src=$[imgURL1]></div>
+								<h2><em>Picture Details<em></h2>
+								<div class="caption">
+									<table>
+									<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+									<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+									<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+									</table>
+								</div>
+								</body></html>]]></description>
+					<styleUrl>#photo</styleUrl>
+					<ExtendedData>
+						<Data name="imgName1">
+							<value>IMG_20170120_120324.jpg</value>
+						</Data>
+						<Data name="imgDate1">
+							<value>2017/01/20</value>
+						</Data>
+						<Data name="imgDisc1">
+							<value>[Insert Descritption of Image]</value>
+						</Data>
+						<Data name="imgURL1">
+							<value>IMG_20170120_120324.jpg</value>
+						</Data>
+					</ExtendedData>
+				<Point>
+					<coordinates>-85.8476501509022,37.67159887029296,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IMG_20170120_110112.jpg</name>
+				<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+								<h1>$[imgName1]</h1>
+								<div class="photo-frame"><img src=$[imgURL1]></div>
+								<h2><em>Picture Details<em></h2>
+								<div class="caption">
+									<table>
+									<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+									<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+									<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+									</table>
+								</div>
+								</body></html>]]></description>
+					<styleUrl>#photo</styleUrl>
+					<ExtendedData>
+						<Data name="imgName1">
+							<value>IMG_20170120_110112.jpg</value>
+						</Data>
+						<Data name="imgDate1">
+							<value>2017/01/20</value>
+						</Data>
+						<Data name="imgDisc1">
+							<value>[Insert Descritption of Image]</value>
+						</Data>
+						<Data name="imgURL1">
+							<value>IMG_20170120_110112.jpg</value>
+						</Data>
+					</ExtendedData>
+				<Point>
+					<coordinates>-85.84797660540068,37.67143976926542,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IMG_20170120_153248.jpg</name>
+				<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+								<h1>$[imgName1]</h1>
+								<div class="photo-frame"><img src=$[imgURL1]></div>
+								<h2><em>Picture Details<em></h2>
+								<div class="caption">
+									<table>
+									<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+									<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+									<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+									</table>
+								</div>
+								</body></html>]]></description>
+					<styleUrl>#photo</styleUrl>
+					<ExtendedData>
+						<Data name="imgName1">
+							<value>IMG_20170120_153248.jpg</value>
+						</Data>
+						<Data name="imgDate1">
+							<value>2017/01/20</value>
+						</Data>
+						<Data name="imgDisc1">
+							<value>[Insert Descritption of Image]</value>
+						</Data>
+						<Data name="imgURL1">
+							<value>IMG_20170120_153248.jpg</value>
+						</Data>
+					</ExtendedData>
+				<Point>
+					<coordinates>-85.84785523129332,37.67151978251895,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IMG_20170120_110340.jpg</name>
+				<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+								<h1>$[imgName1]</h1>
+								<div class="photo-frame"><img src=$[imgURL1]></div>
+								<h2><em>Picture Details<em></h2>
+								<div class="caption">
+									<table>
+									<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+									<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+									<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+									</table>
+								</div>
+								</body></html>]]></description>
+					<styleUrl>#photo</styleUrl>
+					<ExtendedData>
+						<Data name="imgName1">
+							<value>IMG_20170120_110340.jpg</value>
+						</Data>
+						<Data name="imgDate1">
+							<value>2017/08/15</value>
+						</Data>
+						<Data name="imgDisc1">
+							<value>[Insert Descritption of Image]</value>
+						</Data>
+						<Data name="imgURL1">
+							<value>IMG_20170120_110340.jpg</value>
+						</Data>
+					</ExtendedData>
+				<Point>
+					<coordinates>-85.84762777777777,37.67150555555556,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IMG_20170120_120328.jpg</name>
+				<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+								<h1>$[imgName1]</h1>
+								<div class="photo-frame"><img src=$[imgURL1]></div>
+								<h2><em>Picture Details<em></h2>
+								<div class="caption">
+									<table>
+									<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+									<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+									<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+									</table>
+								</div>
+								</body></html>]]></description>
+					<styleUrl>#photo</styleUrl>
+					<ExtendedData>
+						<Data name="imgName1">
+							<value>IMG_20170120_120328.jpg</value>
+						</Data>
+						<Data name="imgDate1">
+							<value>2017/01/20</value>
+						</Data>
+						<Data name="imgDisc1">
+							<value>[Insert Descritption of Image]</value>
+						</Data>
+						<Data name="imgURL1">
+							<value>IMG_20170120_120328.jpg</value>
+						</Data>
+					</ExtendedData>
+				<Point>
+					<coordinates>-85.84765093769951,37.67159995783162,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IMG_20170120_110338.jpg</name>
+				<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+								<h1>$[imgName1]</h1>
+								<div class="photo-frame"><img src=$[imgURL1]></div>
+								<h2><em>Picture Details<em></h2>
+								<div class="caption">
+									<table>
+									<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+									<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+									<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+									</table>
+								</div>
+								</body></html>]]></description>
+					<styleUrl>#photo</styleUrl>
+					<ExtendedData>
+						<Data name="imgName1">
+							<value>IMG_20170120_110338.jpg</value>
+						</Data>
+						<Data name="imgDate1">
+							<value>2017/01/20</value>
+						</Data>
+						<Data name="imgDisc1">
+							<value>[Insert Descritption of Image]</value>
+						</Data>
+						<Data name="imgURL1">
+							<value>IMG_20170120_110338.jpg</value>
+						</Data>
+					</ExtendedData>
+				<Point>
+					<coordinates>-85.84762777777777,37.67150555555556,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IMG_20170120_140040.jpg</name>
+				<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+								<h1>$[imgName1]</h1>
+								<div class="photo-frame"><img src=$[imgURL1]></div>
+								<h2><em>Picture Details<em></h2>
+								<div class="caption">
+									<table>
+									<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+									<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+									<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+									</table>
+								</div>
+								</body></html>]]></description>
+					<styleUrl>#photo</styleUrl>
+					<ExtendedData>
+						<Data name="imgName1">
+							<value>IMG_20170120_140040.jpg</value>
+						</Data>
+						<Data name="imgDate1">
+							<value>2017/01/20</value>
+						</Data>
+						<Data name="imgDisc1">
+							<value>[Insert Descritption of Image]</value>
+						</Data>
+						<Data name="imgURL1">
+							<value>IMG_20170120_140040.jpg</value>
+						</Data>
+					</ExtendedData>
+				<Point>
+					<coordinates>-85.84769942225002,37.67156959535558,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IMG_20170120_135933.jpg</name>
+				<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+								<h1>$[imgName1]</h1>
+								<div class="photo-frame"><img src=$[imgURL1]></div>
+								<h2><em>Picture Details<em></h2>
+								<div class="caption">
+									<table>
+									<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+									<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+									<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+									</table>
+								</div>
+								</body></html>]]></description>
+					<styleUrl>#photo</styleUrl>
+					<ExtendedData>
+						<Data name="imgName1">
+							<value>IMG_20170120_135933.jpg</value>
+						</Data>
+						<Data name="imgDate1">
+							<value>2017/01/20</value>
+						</Data>
+						<Data name="imgDisc1">
+							<value>[Insert Descritption of Image]</value>
+						</Data>
+						<Data name="imgURL1">
+							<value>IMG_20170120_135933.jpg</value>
+						</Data>
+					</ExtendedData>
+				<Point>
+					<coordinates>-85.84784550815969,37.67147864047689,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IMG_20170120_110037.jpg</name>
+				<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+								<h1>$[imgName1]</h1>
+								<div class="photo-frame"><img src=$[imgURL1]></div>
+								<h2><em>Picture Details<em></h2>
+								<div class="caption">
+									<table>
+									<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+									<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+									<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+									</table>
+								</div>
+								</body></html>]]></description>
+					<styleUrl>#photo</styleUrl>
+					<ExtendedData>
+						<Data name="imgName1">
+							<value>IMG_20170120_110037.jpg</value>
+						</Data>
+						<Data name="imgDate1">
+							<value>2017/01/20</value>
+						</Data>
+						<Data name="imgDisc1">
+							<value>[Insert Descritption of Image]</value>
+						</Data>
+						<Data name="imgURL1">
+							<value>IMG_20170120_110037.jpg</value>
+						</Data>
+					</ExtendedData>
+				<Point>
+					<coordinates>-85.84793856876784,37.67135552083133,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IMG_20170120_123305.jpg</name>
+				<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+								<h1>$[imgName1]</h1>
+								<div class="photo-frame"><img src=$[imgURL1]></div>
+								<h2><em>Picture Details<em></h2>
+								<div class="caption">
+									<table>
+									<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+									<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+									<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+									</table>
+								</div>
+								</body></html>]]></description>
+					<styleUrl>#photo</styleUrl>
+					<ExtendedData>
+						<Data name="imgName1">
+							<value>IMG_20170120_123305.jpg</value>
+						</Data>
+						<Data name="imgDate1">
+							<value>2017/01/20</value>
+						</Data>
+						<Data name="imgDisc1">
+							<value>[Insert Descritption of Image]</value>
+						</Data>
+						<Data name="imgURL1">
+							<value>IMG_20170120_123305.jpg</value>
+						</Data>
+					</ExtendedData>
+				<Point>
+					<coordinates>-85.84793856875844,37.67135552046846,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IMG_20170120_110314.jpg</name>
+				<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+								<h1>$[imgName1]</h1>
+								<div class="photo-frame"><img src=$[imgURL1]></div>
+								<h2><em>Picture Details<em></h2>
+								<div class="caption">
+									<table>
+									<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+									<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+									<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+									</table>
+								</div>
+								</body></html>]]></description>
+					<styleUrl>#photo</styleUrl>
+					<ExtendedData>
+						<Data name="imgName1">
+							<value>IMG_20170120_110314.jpg</value>
+						</Data>
+						<Data name="imgDate1">
+							<value>2017/01/20</value>
+						</Data>
+						<Data name="imgDisc1">
+							<value>[Insert Descritption of Image]</value>
+						</Data>
+						<Data name="imgURL1">
+							<value>IMG_20170120_110314.jpg</value>
+						</Data>
+					</ExtendedData>
+				<Point>
+					<coordinates>-85.84768193984985,37.67151621215841,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
 	</Folder>
 	<Folder>
 		<name>District 5</name>
@@ -779,40 +1224,43 @@
 				<maxFadeExtent>0</maxFadeExtent>
 			</Lod>
 		</Region>
-		<Placemark>
-			<name>IMG_20170815_143023.jpg</name>
-			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
-						<h1>$[imgName1]</h1>
-						<div class="photo-frame"><img src=$[imgURL1]></div>
-						<h2><em>Picture Details<em></h2>
-						<div class="caption">
-							<table>
-							<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
-							<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
-							<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
-							</table>
-						</div>
-						</body></html>]]></description>
-			<styleUrl>#photo</styleUrl>
-			<ExtendedData>
-				<Data name="imgName1">
-					<value>IMG_20170815_143023.jpg</value>
-				</Data>
-				<Data name="imgDate1">
-					<value>2017/08/15</value>
-				</Data>
-				<Data name="imgDisc1">
-					<value>[Insert Descritption of Image]</value>
-				</Data>
-				<Data name="imgURL1">
-					<value>https://i.imgbox.com/4zNJXLzs.jpg</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>-82.65809689929722,37.16365486295865,0</coordinates>
-			</Point>
-		</Placemark>
+			<Folder>
+				<name>2017-08-15 Site Visit</name>
+				<Placemark>
+					<name>IMG_20170815_143023.jpg</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+								<h1>$[imgName1]</h1>
+								<div class="photo-frame"><img src=$[imgURL1]></div>
+								<h2><em>Picture Details<em></h2>
+								<div class="caption">
+									<table>
+									<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+									<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+									<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+									</table>
+								</div>
+								</body></html>]]></description>
+					<styleUrl>#photo</styleUrl>
+					<ExtendedData>
+						<Data name="imgName1">
+							<value>IMG_20170815_143023.jpg</value>
+						</Data>
+						<Data name="imgDate1">
+							<value>2017/08/15</value>
+						</Data>
+						<Data name="imgDisc1">
+							<value>[Insert Descritption of Image]</value>
+						</Data>
+						<Data name="imgURL1">
+							<value>https://i.imgbox.com/4zNJXLzs.jpg</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>-82.65809689929722,37.16365486295865,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
 	</Folder>
 	<Folder>
 		<name>Boundary Outline</name>
