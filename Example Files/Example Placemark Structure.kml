@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Photos</name>
+	<Style id="h_photo">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>https://github.com/claytoncook12/CC-Google-Earth/blob/master/Icons/Panoramio%20Icon.png?raw=true</href>
+				<gx:w>32</gx:w>
+				<gx:h>32</gx:h>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>0</width>
+			<gx:labelVisibility>1</gx:labelVisibility>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+		<BalloonSytle>
+			<text>$[description]</text>
+		</BalloonSytle>
+	</Style>
+	<Style id="n_photo">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>https://github.com/claytoncook12/CC-Google-Earth/blob/master/Icons/Panoramio%20Icon.png?raw=true</href>
+				<gx:w>32</gx:w>
+				<gx:h>32</gx:h>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>0</width>
+			<gx:labelVisibility>1</gx:labelVisibility>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+		<BalloonSytle>
+			<text>$[description]</text>
+		</BalloonSytle>
+	</Style>
+	<StyleMap id="photo">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#n_photo</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#h_photo</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Photo List</name>
+		<Placemark>
+			<name>img_20170117_114731.jpg</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+						<h1>$[imgName1]</h1>
+						<div class="photo-frame"><img src=$[imgURL1]></div>
+						<h2><em>Picture Details<em></h2>
+						<div class="caption">
+							<table>
+							<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+							<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+							<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+							</table>
+						</div>
+						</body></html>]]></description>
+			<styleUrl>#photo</styleUrl>
+			<ExtendedData>
+				<Data name="imgName1">
+					<value>img_20170117_114731.jpg</value>
+				</Data>
+				<Data name="imgDate1">
+					<value>2017/1/17</value>
+				</Data>
+				<Data name="imgDisc1">
+					<value>[Insert Descritption of Image]</value>
+				</Data>
+				<Data name="imgURL1">
+					<value>https://images.imgbox.com/88/c4/jWPyEukG_o.jpg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-85.474175,38.2940777777777,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
