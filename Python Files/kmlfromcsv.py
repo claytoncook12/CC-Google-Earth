@@ -73,11 +73,11 @@ KMLPhotoFolderOpen = "\t<Folder>\n<name>Photo List</name>\n"
 
 KMLPhotoFolderClose = "\t</Folder>"
 
-def make_placemark_text(imageName,URLLink,coordinate,imgDate,imageDisc):
+def make_placemark_text(imageName,URLLink,coordinate,imgDate,imgDisc):
     """ returns text for placemark """ 
 
-    if imageDisc == "":
-        imageDisc = "[Insert image discription]"
+    if imgDisc == "":
+        imgDisc = "[Insert image discription]"
     
     text = """<Placemark>
 			<name>""" + imageName + """</name>
