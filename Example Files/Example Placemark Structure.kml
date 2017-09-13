@@ -64,7 +64,7 @@
 			<Snippet maxLines="0"></Snippet>
 			<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
 						<h1>$[imgName1]</h1>
-						<div class="photo-frame"><img src=$[imgURL1]></div>
+						<div class="photo-frame"><img style="height:400px" src=$[imgURL1]></div>
 						<h2><em>Picture Details<em></h2>
 						<div class="caption">
 							<table>
