@@ -13456,6 +13456,75 @@ xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/At
 				<coordinates>-82.78783936583824,37.3671889253144,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+		<name>IMG_20170906_111713.jpg</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+						<h1>$[imgName1]</h1>
+						<div class="photo-frame"><img style="height:400px" src=$[imgURL1]></div>
+						<h2><em>Picture Details<em></h2>
+						<div class="caption">
+							<table>
+							<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+							<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+							<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+							</table>
+						</div>
+						</body></html>]]></description>
+		<styleUrl>#photo</styleUrl>
+		<ExtendedData>
+			<Data name="imgName1">
+				<value>IMG_20170906_111713.jpg</value>
+			</Data>
+			<Data name="imgDate1">
+				<value>2017/09/06</value>
+			</Data>
+			<Data name="imgDisc1">
+				<value>Excavation of rock for bridge abutment footing.</value>
+			</Data>
+			<Data name="imgURL1">
+				<value>https://images.imgbox.com/68/a3/AIOTS5QN_o.jpg</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-84.70322552868123,37.7472702244519,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>IMG_20170906_111825.jpg</name>
+		<open>1</open>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+						<h1>$[imgName1]</h1>
+						<div class="photo-frame"><img style="height:400px" src=$[imgURL1]></div>
+						<h2><em>Picture Details<em></h2>
+						<div class="caption">
+							<table>
+							<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+							<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+							<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+							</table>
+						</div>
+						</body></html>]]></description>
+		<styleUrl>#photo</styleUrl>
+		<ExtendedData>
+			<Data name="imgName1">
+				<value>IMG_20170906_111825.jpg</value>
+			</Data>
+			<Data name="imgDate1">
+				<value>2017/09/06</value>
+			</Data>
+			<Data name="imgDisc1">
+				<value>[Insert image discription]</value>
+			</Data>
+			<Data name="imgURL1">
+				<value>https://images.imgbox.com/bf/58/ifS5qKYo_o.jpg</value>
+			</Data>
+		</ExtendedData>
+		<Point>
+			<coordinates>-84.70317055483864,37.74714667641705,0</coordinates>
+		</Point>
+	</Placemark>
 	</Folder></Document>
 
 </kml>
