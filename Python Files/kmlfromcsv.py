@@ -1,5 +1,6 @@
 #! python3
-# Test file for playing with user input and file creation
+# kmlfromcsv.py - Creates kml from csv data
+# csv formate: [imageName,URLLink,coordinates,imgDate,imageDisc]
 
 import os, csv
 

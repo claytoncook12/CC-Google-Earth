@@ -13,16 +13,69 @@ GPSRegex = re.compile(r'\S(\d+)\S\s(\d+)\S\s(\d+/\d+)')
 
 # Text for KML file creation
 KMLOpeningText = """<?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2" 
-xmlns:gx="http://www.google.com/kml/ext/2.2"
-xmlns:kml="http://www.opengis.net/kml/2.2" 
-xmlns:atom="http://www.w3.org/2005/Atom">
-<Document>\n"""
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2"
+xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<name>Photos</name>\n"""
 
 KMLClosingText = """</Document>\n
-                    </kml>"""
+</kml>"""
 
-KMLStyleText = """\t<StyleMap id="1052804">\n\t\t<Pair>\n\t\t\t<key>normal</key>\n\t\t\t<styleUrl>#pano_cluster3n</styleUrl>\n\t\t</Pair>\n\t\t<Pair>\n\t\t\t<key>highlight</key>\n\t\t\t<styleUrl>#pano_cluster3h</styleUrl>\n\t\t</Pair>\n\t</StyleMap>\n\t<Style id="pano_cluster3n">\n\t\t<IconStyle>\n\t\t\t<scale>0.4</scale>\n\t\t\t<Icon>\n\t\t\t\t<href>http://kh.google.com:80/flatfile?lf-0-icons/panoramio_cluster_n2.png</href>\n\t\t\t\t<gx:w>32</gx:w>\n\t\t\t\t<gx:h>32</gx:h>\n\t\t\t</Icon>\n\t\t</IconStyle>\n\t\t<LabelStyle>\n\t\t\t<scale>0</scale>\n\t\t</LabelStyle>\n\t\t<LineStyle>\n\t\t\t<color>ff000000</color>\n\t\t\t<width>0</width>\n\t\t\t<gx:labelVisibility>1</gx:labelVisibility>\n\t\t</LineStyle>\n\t\t<PolyStyle>\n\t\t\t<color>ff000000</color>\n\t\t</PolyStyle>\n\t</Style>\n\t<Style id="pano_cluster3h">\n\t\t<IconStyle>\n\t\t\t<scale>0.6</scale>\n\t\t\t<Icon>\n\t\t\t\t<href>http://kh.google.com:80/flatfile?lf-0-icons/panoramio_cluster_n2.png</href>\n\t\t\t\t<gx:w>32</gx:w>\n\t\t\t\t<gx:h>32</gx:h>\n\t\t\t</Icon>\n\t\t</IconStyle>\n\t\t<LabelStyle>\n\t\t</LabelStyle>\n\t\t<LineStyle>\n\t\t\t<color>ff000000</color>\n\t\t\t<width>0</width>\n\t\t\t<gx:labelVisibility>1</gx:labelVisibility>\n\t\t</LineStyle>\n\t\t<PolyStyle>\n\t\t\t<color>ff000000</color>\n\t\t</PolyStyle>\n\t</Style>"""
+KMLStyleText = """\t\t<Style id="h_photo">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>https://github.com/claytoncook12/CC-Google-Earth/blob/master/Icons/Panoramio%20Icon.png?raw=true</href>
+				<gx:w>32</gx:w>
+				<gx:h>32</gx:h>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>0</width>
+			<gx:labelVisibility>1</gx:labelVisibility>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+		<BalloonSytle>
+			<text>$[description]</text>
+		</BalloonSytle>
+	</Style>
+	<Style id="n_photo">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>https://github.com/claytoncook12/CC-Google-Earth/blob/master/Icons/Panoramio%20Icon.png?raw=true</href>
+				<gx:w>32</gx:w>
+				<gx:h>32</gx:h>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>0</width>
+			<gx:labelVisibility>1</gx:labelVisibility>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+		</PolyStyle>
+		<BalloonSytle>
+			<text>$[description]</text>
+		</BalloonSytle>
+	</Style>
+	<StyleMap id="photo">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#n_photo</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#h_photo</styleUrl>
+		</Pair>
+	</StyleMap>\n"""
 
 def formate_coordinates_to_degrees(degrees,minutes,seconds):
     degrees = float(degrees)
@@ -104,44 +157,52 @@ def pics_info_for_kml(folder):
             
         except:
             print("Error with",image)
-            print("Did not add to kml file")
-            print("")
+            print("Did not add to kml file\n")
     
     return imageInformation
         
-def make_placemark_text(name,date,height,latitude,longitude,ratio):
+def make_placemark_text(imageName,URLLink,coordinate,imgDate,imgDisc):
     """ returns text for placemark """ 
-    
-    ratioedHeight = str(int(ratio * height))
-    
-    text1 = """<Placemark>\n"""
-    text2 = """<name>""" + name + """</name>\n"""
-    text3 = """<description><![CDATA[\n"""
-    text4 = """Image was taken on """ + date.replace(':','/')
-    text5 = '<p><img src="' +  name + '"' +' width= "500" height="'+ ratioedHeight + '"/></p>]]>\n'
-    text6 = """</description>\n
-<styleUrl>#1052804</styleUrl>\n
-<Point>\n"""
-    text7 = """\t<coordinates> -"""+str(longitude)+""","""+str(latitude)+""",0</coordinates>\n
-</Point>\n
-</Placemark>\n"""
-    
-    return text1+text2+text3+text4+text5+text6+text7 
-    
-    
-def find_image_ratio_for_kml(imageDict, imageWidth=700):
-    """ scales image to imageWidth
-    while keeping ratio """
-    
-    for key,values in imageDict.items():
 
-        width = values['width']
-
-        ratio = imageWidth/width
-
-        imageDict[key]['ratio'] = ratio
-        
-    return imageDict
+    if imgDisc == "":
+        imgDisc = "[Insert image discription]"
+    
+    text = """<Placemark>
+			<name>""" + imageName + """</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+						<h1>$[imgName1]</h1>
+						<div class="photo-frame"><img style="height:400px" src=$[imgURL1]></div>
+						<h2><em>Picture Details<em></h2>
+						<div class="caption">
+							<table>
+							<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+							<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+							<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+							</table>
+						</div>
+						</body></html>]]></description>
+			<styleUrl>#photo</styleUrl>
+			<ExtendedData>
+				<Data name="imgName1">
+					<value>""" + imageName + """</value>
+				</Data>
+				<Data name="imgDate1">
+					<value>""" + imgDate + """</value>
+				</Data>
+				<Data name="imgDisc1">
+					<value>""" + imgDisc + """</value>
+				</Data>
+				<Data name="imgURL1">
+					<value>""" + URLLink + """</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>""" + coordinate + """</coordinates>
+			</Point>
+		</Placemark>\n"""
+    
+    return text
 
 def create_kml(folder,name):
     """ creates kml file with pictures in folder location,
@@ -152,17 +213,14 @@ def create_kml(folder,name):
     # return dict of image information
     imageInfo = pics_info_for_kml(folder)
     
-    # find ratio to use for image scaling
-    imageInfo =  find_image_ratio_for_kml(imageInfo)
-    
     # create kml file in folder location
-    kmlFile = open(folder+'\\'+name+'.kml','w')
+    kmlFile = open(folder+'/'+name+'.kml','w')
     kmlFile.close()
     
     # Start Adding KML Information
     
     # Add start string
-    kmlFile = open(folder+'\\'+name+'.kml','a')
+    kmlFile = open(folder+'/'+name+'.kml','a')
     kmlFile.write(KMLOpeningText)
     
     # Add Name string
@@ -171,28 +229,44 @@ def create_kml(folder,name):
     # Add Styles
     kmlFile.write(KMLStyleText)
     
-    # Add PLacemarks
+    # Add Placemarks
     for key,values in sorted(imageInfo.items()):
         
         placeMarkText = make_placemark_text(key,
-                                            values['date'],
-                                            values['height'],
-                                            values['latitude'],
-                                            values['longitude'],
-                                            values['ratio'])
-        
-        
+                                            key,
+                                            "-"+str(values['longitude'])+","+str(values['latitude'])+","+"0",
+                                            values['date'].replace(":", "/"),
+                                            "[Insert image discription]")
+
         kmlFile.write(placeMarkText)
         
     # Add Closing Text
     kmlFile.write(KMLClosingText)
     
     kmlFile.close()
-    
-        
-        
-        
-        
-        
-        
-        
+
+# User Inputs kml file name
+while True:
+    print("Input new kml file name [exclude .kml]:")
+    fileName = input()
+    print("Is this correct?[y/n]\nfile name: %s" % fileName)
+    correct = input()
+    if correct.lower() == "y":
+        break
+
+# User inputs folder location
+while True:
+    print("Input folder location of images where kml will be created:\n\
+[ex: C:/folder/]")
+    folderLoc = input()
+    print("Is this correct?[y/n]\nfolder location:\n%s" % folderLoc)
+    correct = input()
+    if correct.lower() == "y":
+        break
+
+# Read Imgs and Create KML File
+create_kml(folderLoc,fileName)
+
+# Final Comments
+print("Done with kml creation.")
+
