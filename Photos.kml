@@ -15544,5 +15544,75 @@ xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/At
 			<coordinates>-84.63669533227188,38.12819186674993,0</coordinates>
 		</Point>
 	</Placemark>
+	<Placemark>
+			<name>IMG_20171031_112514.jpg</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+						<h1>$[imgName1]</h1>
+						<div class="photo-frame"><img style="height:400px" src=$[imgURL1]></div>
+						<h2><em>Picture Details<em></h2>
+						<div class="caption">
+							<table>
+							<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+							<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+							<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+							</table>
+						</div>
+						</body></html>]]></description>
+			<styleUrl>#photo</styleUrl>
+			<ExtendedData>
+				<Data name="imgName1">
+					<value>IMG_20171031_112514.jpg</value>
+				</Data>
+				<Data name="imgDate1">
+					<value>2017/1/17</value>
+				</Data>
+				<Data name="imgDisc1">
+					<value>[Insert image discription]</value>
+				</Data>
+				<Data name="imgURL1">
+					<value>https://images2.imgbox.com/d9/16/nqMn74ij_o.jpg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-83.38711635484019,37.62460979387976,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>IMG_20171031_113552.jpg</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html><head><link rel="stylesheet" type="text/css" href="https://github.com/claytoncook12/CC-Google-Earth/blob/master/styles/style.css?raw=true"/><head><body><div class="container">
+						<h1>$[imgName1]</h1>
+						<div class="photo-frame"><img style="height:400px" src=$[imgURL1]></div>
+						<h2><em>Picture Details<em></h2>
+						<div class="caption">
+							<table>
+							<tr bgcolor="#E3E3F3"><th>Date Taken</th><td>$[imgDate1]</td></tr>
+							<tr bgcolor=""><th>Description</th><td>$[imgDisc1]</td></tr>
+							<tr bgcolor="#E3E3F3"><th>Img URL</th><td><a href="$[imgURL1]">$[imgURL1]</a></td></tr>
+							</table>
+						</div>
+						</body></html>]]></description>
+			<styleUrl>#photo</styleUrl>
+			<ExtendedData>
+				<Data name="imgName1">
+					<value>IMG_20171031_113552.jpg</value>
+				</Data>
+				<Data name="imgDate1">
+					<value>2017/1/17</value>
+				</Data>
+				<Data name="imgDisc1">
+					<value>[Insert image discription]</value>
+				</Data>
+				<Data name="imgURL1">
+					<value>https://images2.imgbox.com/e8/71/WrQxArP4_o.jpg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-83.38670037877168,37.62532163833982,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder></Document>
 </kml>
