@@ -15133,7 +15133,7 @@ xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/At
 			</Data>
 		</ExtendedData>
 		<Point>
-			<coordinates>-83.3884178540592,37.62456249374268,0</coordinates>
+			<coordinates>-83.388566,37.624549,0</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark>
@@ -15167,7 +15167,7 @@ xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/At
 			</Data>
 		</ExtendedData>
 		<Point>
-			<coordinates>-83.38787500000001,37.62456666666667,0</coordinates>
+			<coordinates>-83.388355,37.624564,0</coordinates>
 		</Point>
 	</Placemark>
 		<Placemark>
@@ -15576,7 +15576,7 @@ xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/At
 			</ExtendedData>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-83.38711635484019,37.62460979387976,0</coordinates>
+				<coordinates>-83.387471,37.624577,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
