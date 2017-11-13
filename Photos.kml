@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2"
 xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
@@ -14823,7 +14823,6 @@ xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/At
 				<value>https://images.imgbox.com/6a/03/XrLBN8dI_o.jpg</value>
 			</Data>
 		</ExtendedData>
-		<gx:balloonVisibility>1</gx:balloonVisibility>
 		<Point>
 			<coordinates>-82.86357814278357,37.69203343977738,0</coordinates>
 		</Point>
