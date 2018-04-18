@@ -7,7 +7,7 @@ xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/At
 		<IconStyle>
 			<scale>0.6</scale>
 			<Icon>
-				<href>https://github.com/claytoncook12/CC-Google-Earth/blob/master/Icons/Panoramio%20Icon.png?raw=true</href>
+				<href>https://raw.githubusercontent.com/claytoncook12/Photos_Projects_KML/master/Icons/Panoramio%20Icon.png</href>
 				<gx:w>32</gx:w>
 				<gx:h>32</gx:h>
 			</Icon>
@@ -28,7 +28,7 @@ xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/At
 		<IconStyle>
 			<scale>0.4</scale>
 			<Icon>
-				<href>https://github.com/claytoncook12/CC-Google-Earth/blob/master/Icons/Panoramio%20Icon.png?raw=true</href>
+				<href>https://raw.githubusercontent.com/claytoncook12/Photos_Projects_KML/master/Icons/Panoramio%20Icon.png</href>
 				<gx:w>32</gx:w>
 				<gx:h>32</gx:h>
 			</Icon>
